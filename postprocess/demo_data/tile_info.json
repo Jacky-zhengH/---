@@ -1,0 +1,18 @@
+{
+  "image001_x0_y0.jpg": {
+    "origin_image": "image001.jpg",
+    "image_id": 1,
+    "x_offset": 0,
+    "y_offset": 0,
+    "origin_width": 10000,
+    "origin_height": 10000
+  },
+  "image001_x512_y0.jpg": {
+    "origin_image": "image001.jpg",
+    "image_id": 1,
+    "x_offset": 512,
+    "y_offset": 0,
+    "origin_width": 10000,
+    "origin_height": 10000
+  }
+}

@@ -1,0 +1,26 @@
+input:
+  prediction_format: "xyxy"
+  coordinate_system: "tile"
+
+tile:
+  use_tile_info: true
+  tile_info_path: "demo_data/tile_info.json"
+
+postprocess:
+  conf_thres: 0.20
+  nms_iou_thres: 0.45
+  class_wise_nms: true
+
+box_filter:
+  enable_area_filter: false
+  min_area: 0
+  max_area: 999999
+
+  enable_aspect_ratio_filter: false
+  min_aspect_ratio: 0.05
+  max_aspect_ratio: 20.0
+
+output:
+  coco_bbox_format: "xywh"
+  final_json_path: "outputs/final_coco_results.json"
+  visualization_dir: "outputs/vis"

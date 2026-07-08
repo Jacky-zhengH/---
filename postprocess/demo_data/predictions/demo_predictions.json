@@ -1,0 +1,26 @@
+[
+  {
+    "tile_name": "image001_x0_y0.jpg",
+    "category_id": 1,
+    "score": 0.90,
+    "bbox_xyxy": [100, 100, 200, 200]
+  },
+  {
+    "tile_name": "image001_x0_y0.jpg",
+    "category_id": 1,
+    "score": 0.70,
+    "bbox_xyxy": [110, 110, 210, 210]
+  },
+  {
+    "tile_name": "image001_x0_y0.jpg",
+    "category_id": 1,
+    "score": 0.80,
+    "bbox_xyxy": [400, 400, 500, 500]
+  },
+  {
+    "tile_name": "image001_x512_y0.jpg",
+    "category_id": 1,
+    "score": 0.85,
+    "bbox_xyxy": [10, 100, 110, 200]
+  }
+]
